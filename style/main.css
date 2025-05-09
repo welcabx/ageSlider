@@ -2,7 +2,7 @@
 
 :root {
     --slate-300: oklch(86.9% 0.022 252.894);
-    
+
 
 }
 
@@ -29,6 +29,17 @@ h1 {
     &:hover {
         color: orange;
     }
+}
+
+#main-container {
+    background-color: whitesmoke;
+    width: calc(100vw - 100px);
+    height: calc(100vh - 300px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 
