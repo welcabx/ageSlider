@@ -49,9 +49,6 @@ main {
 h1 {
     font-size: 80px;
     padding: 5px;
-    &:hover {
-        color: orange;
-    }
 }
 
 
